@@ -1,0 +1,26 @@
+{
+  "name": "jedlik-typescript-vscode-template",
+  "version": "1.0.0",
+  "description": "null, undefined és never adattípusok.",
+  "engines": {
+    "node": "11.x"
+  },
+  "main": "app.js",
+  "repository": {
+    "private": true,
+    "type": "git",
+    "url": "https://github.com/hbarni/Null_Undef"
+  },
+  "scripts": {
+    "start": "node ./js/app.js",
+    "start-debug": "node --debug=5858 ./js/app.js",
+    "install:nodemodules": "npm install",
+    "compile": "%APPDATA%/npm/tsc",
+    "nodemon": "%APPDATA%/npm/nodemon --inspect -q ./js/app.js"
+  },
+  "author": "Horváth Barnabás Csaba",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^11.9.4"
+  }
+}
